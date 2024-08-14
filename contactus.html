@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Us</title>
+	<link rel="shortcut icon" href="./assets/images/favicons/favicon.png"> </head>
+    <link rel="stylesheet" href="./assets/css/contact.css">
+</head>
+<body class="container has-text-centered" style="background-color: #212121;">
+	<!-- start adding page content -->
+        <section class="section templatesection services-section  is-clearfix" id="welcome">
+              <div class="section-body">
+                <div class="container">
+                  <div class="content columns is-variable is-multiline has-text-centered" style="text-align:center;">
+                  	<div class="column is-12">
+                  	<img src="assets\images\logo\mylogo.png">
+                    </div>
+                    <div class="column is-12">
+
+                    <section class="w3l-simple-contact-form1">
+                        <div class="contact-form section-gap">
+                        <div class="wrapper">
+                            <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
+                            <div class="form-mid">
+                                <form action="./controller/contact.php" method="post">
+                                <div class="field">
+                                    <input
+                                    type="text"
+                                    name="name"
+                                    id="name"
+                                    placeholder="Name"
+                                    autocomplete="off"
+                                    class="form-control"
+                                    required
+                                    />
+                                </div>
+                                <div class="field">
+                                    <input
+                                    type="text"
+                                    name="email"
+                                    id="email"
+                                    placeholder="Email"
+                                    autocomplete="off"
+                                    class="form-control"
+                                    required
+                                    />
+                                </div>
+                                <div class="field">
+                                    <input
+                                    type="number"
+                                    name="phone"
+                                    id="contact"
+                                    placeholder="Phone Number"
+                                    autocomplete="off"
+                                    class="form-control"
+                                    required
+                                    />
+                                </div>
+                                <div class="field">
+                                <select name="interest" id="interest" >
+                                    <option selected="true" disabled="disabled">Select Your Interest</option>
+                                    <option value="Web Application Development">Web Application Development</option>
+                                    <option value="Mobile Application Development">Mobile Application Development</option>
+                                    <option value="QA and Testing">QA and Testing</option>
+                                    <option value="Digital Marketing">Digital Marketing</option>
+                                    <option value="IT Consulting">IT Consulting</option>
+                                    <option value="Product Development">Product Development</option>
+                                    <option value="Proof Of Concept">Proof Of Concept</option>
+                                    <option value="Resource Engagement">Resource Engagement</option>
+                                    <option value="Off-Shore Development">Off-Shore Development</option>
+                                </select>
+                                </div>
+                                <div class="field">
+                                    <input
+                                    type="text"
+                                    name="organization-name"
+                                    id="name"
+                                    placeholder="Organization Name"
+                                    autocomplete="off"
+                                    class="form-control"
+                                    />
+                                </div>
+                                <div class="field">
+                                    <input
+                                    type="text"
+                                    name="comment"
+                                    id="name"
+                                    placeholder="Comment"
+                                    autocomplete="off"
+                                    class="form-control"
+                                    />
+                                </div>
+                                
+                                <button name="action" type="submit" class="btn btn-contact">Submit </button>
+                                </form>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </section>
+                    </div>
+	              </div>
+	         	 </div>
+	      		</div>
+	    </section>
+
+</body>
+</html>

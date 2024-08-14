@@ -1,0 +1,52 @@
+
+/*Organizational Culture CSS which overwrites development-process/common-inner-page-min.css*/
+
+
+/*templateblue #0063dd*/
+/*templateblack #4b505d*/
+/*templatedarkblack #2b303b */
+/*templatelightblack #303540 */
+/*templategreen #23d160*/
+/*originalblack */
+
+.working-process-block {
+  padding-top: 25px;
+}
+
+.process-block {
+	background-color: black;
+}
+
+.process-block .list-block ul li 
+{
+  color: white;
+}
+
+.process-block .content-block p {
+  color: white;
+}
+
+.process-block .border-area.left-top {
+  background-color: black;
+}
+
+.process-block .border-area.left-bottom {
+  background-color: black;
+}
+
+.process-block .border-area.right-top {
+  background-color: black;
+}
+
+.process-block .border-area.right-bottom {
+  background-color: black;
+}
+
+.process-block .content-block .heading-block h2 {
+	color: #23d160;
+}
+
+.process-block .list-block ul li.active span {
+	color: #23d160;
+	border: 1px dashed #23d160;
+}
